@@ -2,6 +2,7 @@
 import { config } from 'dotenv';
 import Binance from 'binance-api-node';
 import { ATR, BollingerBands } from 'technicalindicators';
+import { calcMetrics } from '../utils/calcMetrics.js';
 
 config();
 const client = Binance({ apiKey: process.env.BINANCE_API_KEY, apiSecret: process.env.BINANCE_API_SECRET });
