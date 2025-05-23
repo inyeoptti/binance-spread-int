@@ -4,9 +4,9 @@
     "deploy": "vercel --prod"
   },
   "dependencies": {
-    "binance-api-node": "^1.x",
-    "dotenv": "^16.x",
+    "binance-api-node": "^0.12.9",
     "express": "^4.x",
-    "technicalindicators": "^4.x"
+    "dotenv": "^16.5.0",
+    "technicalindicators": "^3.1.0"
   }
 }
