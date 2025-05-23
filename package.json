@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "binance-api-node": "^1.x",
+    "dotenv": "^16.x",
+    "express": "^4.x",
+    "technicalindicators": "^4.x"
+  }
+}
