@@ -1,5 +1,6 @@
 // utils/calcMetrics.js
-import Binance from 'binance-api-node';
+import pkg from 'binance-api-node';
+const { default: Binance } = pkg;
 import { ATR, BollingerBands } from 'technicalindicators';
 
 // 환경변수가 로드된 상태라고 가정
